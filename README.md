@@ -10,6 +10,8 @@ This is a distributed streaming application that reads tweets from twitter using
 . Run tweet_kafka.py and check.py together. 
   --
    tweet_kafka(streaming data from twitter and sending by producer to kafka)
+   
+   
    check_kafka(storing all the crucial data coming to consumer in csv file as .. tweets.csv) 
 
 . to deliver the stream to csv:
