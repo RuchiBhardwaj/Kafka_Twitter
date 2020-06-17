@@ -15,11 +15,14 @@ This is a distributed streaming application that reads tweets from twitter using
    check_kafka(storing all the crucial data coming to consumer in csv file as .. tweets.csv) 
 
 . to deliver the stream to csv:
+-- 
  and there is csv file tweets.csv which is storing data from consumer so that you can further use for analysis purpose
  
 
 ###########################################
-*** Note ***
+--
+  *** Note ***
+  --
 
 this procedure assumes a topic named twitterstream exists in kafka to produce the data to.
 if you need to create a topic use the following code :
